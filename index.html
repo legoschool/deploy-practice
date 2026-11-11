@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko" data-brick="legoschool · schoolemotion20">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="이운희(진해신항초등학교 · 유튜브 레고학교 @legoschool6076 · schoolemotion20)">
+<title>우리 반 알림판</title>
+<style>
+  :root { --ink: #172B43; --paper: #FBF7EE; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Malgun Gothic", "Noto Sans KR", sans-serif; background: var(--paper); color: var(--ink); }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 60px; }
+  .bricks { display: flex; gap: 8px; margin-bottom: 18px; }
+  .bricks i { width: 46px; height: 26px; border: 3px solid var(--ink); border-radius: 5px; }
+  .bricks i:nth-child(1) { background: #FFCD29; } .bricks i:nth-child(2) { background: #E74335; }
+  .bricks i:nth-child(3) { background: #075BCA; } .bricks i:nth-child(4) { background: #13875D; }
+  h1 { font-size: 44px; margin: 0 0 6px; }
+  .date { font-size: 20px; font-weight: 700; margin: 0 0 26px; }
+  .card { background: #fff; border: 3px solid var(--ink); border-radius: 12px; box-shadow: 6px 6px 0 var(--ink); padding: 20px 24px; margin-bottom: 22px; }
+  .card h2 { font-size: 24px; margin: 0 0 10px; }
+  .card li { font-size: 21px; line-height: 1.7; }
+  .ver { font-size: 15px; opacity: .7; }
+</style>
+</head>
+<body>
+<main>
+  <div class="bricks" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <h1>우리 반 알림판</h1>
+  <p class="date">오늘도 한 칸씩 쌓아요</p>
+  <section class="card">
+    <h2>오늘 할 일</h2>
+    <ul>
+      <li>아침 독서 20분</li>
+      <li>과학 실험 보고서 내기</li>
+      <li>우유 당번: 2모둠</li>
+    </ul>
+  </section>
+  <section class="card">
+    <h2>준비물</h2>
+    <ul>
+      <li>색연필</li>
+      <li>실내화 주머니</li>
+    </ul>
+  </section>
+  <p class="ver">1판</p>
+</main>
+<!-- [레고브릭 서명] 찾을 말: 레고브릭, lg-brick, brick-stack, 레고학교, legoschool, schoolemotion20 -->
+<script type="application/json" id="brick-stack">
+[
+  {"v": 1, "by": "이운희", "at": "진해신항초등학교", "share": "유튜브 레고학교 youtube.com/@legoschool6076 · schoolemotion20", "did": "배포 자습서 연습 파일(우리 반 알림판)", "date": "2026-11-12"}
+]
+</script>
+<i class="lg-brick" data-by="레고학교 이운희 · 진해신항초등학교" data-share="youtube.com/@legoschool6076 · schoolemotion20" aria-hidden="true" hidden></i>
+<style>:root{--built-by:"레고학교 이운희 · 진해신항초등학교 · schoolemotion20 · 한 칸씩 쌓아 주세요"}.lg-brick{display:none}</style>
+<script>(()=>{try{const s=JSON.parse(document.getElementById('brick-stack').textContent);s.forEach(b=>console.log('%c'+b.v+'판 '+b.by+' · '+(b.share||''),'background:#F2CD37;color:#222;padding:2px 6px'));}catch(e){}})();</script>
+</body>
+</html>
